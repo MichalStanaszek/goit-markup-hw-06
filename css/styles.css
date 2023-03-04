@@ -580,7 +580,7 @@ img {
   padding-bottom: 25px;
 }
 
-/* okno modalne */
+/* okno modalne (puste) */
 
 .backdrop {
   position: fixed;
@@ -627,8 +627,70 @@ img {
   cursor: pointer;
 }
 
-/* formularze */
+/* okno modalne - folmularz */
+.modal-header {
+  font-weight: 700;
+  font-size: 1.428rem;
+  text-align: center;
+  color: #212121;
+  margin: 40px 40px 12px 40px;
+}
 
+.modal-input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 12px 0px 12px 42px;
+}
+.modal-input:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+.modal-input:focus + .modal-form-icon {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
+
+.modal-label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px 10px 40px;
+}
+
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  margin-top: 2px;
+}
+
+.textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 12px 16px;
+  resize: none;
+}
+.textarea:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+
+.modal-statute {
+  margin: 20px 54px 30px 55px;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 1.14rem;
+  padding: 10px 76px;
+  margin: 30px 164px;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* formularz footer */
 .newsletter {
   position: relative;
   margin-top: 72px;
@@ -642,8 +704,6 @@ img {
 }
 
 .newsletter-input {
-  display: flex;
-  flex-direction: column;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -658,7 +718,7 @@ img {
   display: flex;
   align-items: center;
   top: 35px;
-  right: -220px;
+  right: -110px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

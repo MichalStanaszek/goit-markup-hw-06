@@ -32,7 +32,7 @@
         <div>
           <nav>
             <ul class="page-navigation">
-              <li><a class="link active" href="Agencja">Agencja</a></li>
+              <li><a class="link active" href="./index.html">Agencja</a></li>
               <li><a class="link" href="./portfolio.html">Portfolio</a></li>
               <li><a class="link" href="Kontakt">Kontakt</a></li>
             </ul>
@@ -403,6 +403,54 @@
         <button type="button" class="close-btn" data-modal-close>
           &#10006;
         </button>
+        <form>
+          <p class="modal-header">Zostaw swoje dane w formularzu poniżej</p>
+          <label class="modal-label">
+            Imie
+            <input class="modal-input" type="text" name="username" />
+            <svg class="modal-form-icon" width="18px" height="18px">
+              <use
+                href="./images/Icons/icons.svg#icon-person-black-18dp-1"
+              ></use>
+            </svg>
+          </label>
+          <label class="modal-label">
+            Telefon
+            <input class="modal-input" type="tel" name="phone" />
+            <svg class="modal-form-icon" width="22px" height="22px">
+              <use
+                href="./images/Icons/icons.svg#icon-phone-black-18dp-1"
+              ></use>
+            </svg>
+          </label>
+          <label class="modal-label">
+            Email
+            <input class="modal-input" type="email" name="email" />
+            <svg class="modal-form-icon" width="18px" height="18px">
+              <use
+                href="./images/Icons/icons.svg#icon-email-black-18dp-1"
+              ></use>
+            </svg>
+          </label>
+          <label class="modal-label">
+            Komentarz
+            <textarea
+              class="textarea"
+              name="comment"
+              rows="5"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <label class="modal-statute">
+            <input type="checkbox" name="statute" value="statute" />
+            Oświadczam iż akceptuję
+            <a class="logo-color-1" href="Regulamin">Regulamin</a> i
+            <a class="logo-color-1" href="Politykę Prywatności"
+              >Politykę Prywatności</a
+            >.
+          </label>
+          <button class="modal-btn" type="submit">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
