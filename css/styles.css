@@ -675,6 +675,13 @@ img {
   border-color: #2196f3;
 }
 
+.textarea::placeholder {
+  font-weight: 400;
+  font-size: 0.85em;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
 .modal-statute {
   margin: 20px 54px 0px 55px;
 }
@@ -691,7 +698,7 @@ img {
 }
 /* Custom checkbox */
 
-.abcd input {
+.checkbox input {
   position: relative;
   width: 16px;
   height: 15px;
@@ -701,12 +708,12 @@ img {
   border-radius: 3px;
 }
 
-.abcd input:before {
+.checkbox input:before {
   content: "";
   display: block;
 }
 
-.abcd input:checked {
+.checkbox input:checked {
   width: 16px;
   height: 15px;
   background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='10' fill='none'%3E%3Cpath fill='%23fff' stroke='%23fff' stroke-width='.2' d='m1.957 4.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z'/%3E%3C/svg%3E")
